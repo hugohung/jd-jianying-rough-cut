@@ -1,5 +1,5 @@
 ---
-name: jianying-rough-cut
+name: jd-jianying-rough-cut
 version: "1.0.0"
 description: >-
   剪映自动粗剪助手。将视频素材按剧本顺序拼入剪映草稿，自动添加叠化转场、
