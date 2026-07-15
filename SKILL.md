@@ -1,6 +1,6 @@
 ---
 name: jd-jianying-rough-cut
-version: "1.0.1"
+version: "1.0.2"
 description: >-
   剪映自动粗剪助手。将视频素材按剧本顺序拼入剪映草稿，自动添加叠化转场、
   底部白字黑描边字幕（渐显渐隐动画），长句自动分段。
@@ -30,11 +30,11 @@ echo "=== whisper.cpp ===" && (command -v whisper-cli 2>/dev/null && whisper-cli
 ### 1. Python + FFmpeg
 
 **检测逻辑**：
-- 先查 `python3` / `python`，再查 WorkBuddy 托管路径
+- 先查 `python3` / `python`，再查 Agent 客户端兼容托管路径
 - 先查 `ffmpeg` 命令，不存在则用 `pip install imageio-ffmpeg`
 
 ```bash
-# 找 Python（优先级：系统 PATH → WorkBuddy 托管 → 报错退出）
+# 找 Python（优先级：系统 PATH → Agent 客户端兼容托管 → 报错退出）
 if command -v python3 &>/dev/null; then
   PYTHON=$(command -v python3)
 elif command -v python &>/dev/null; then

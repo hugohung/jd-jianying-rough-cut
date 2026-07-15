@@ -1,6 +1,6 @@
 # 剪映自动粗剪 (Jianying Rough Cut)
 
-> WorkBuddy Skill — 将视频素材按剧本顺序自动拼入剪映草稿，添加叠化转场和 AI 语音识别字幕
+> Agent Skill — 将视频素材按剧本顺序自动拼入剪映草稿，添加叠化转场和 AI 语音识别字幕
 
 ## 功能特性
 
@@ -13,10 +13,10 @@
 
 ## 安装方式
 
-### WorkBuddy 用户
+### Agent 用户
 
 1. 下载 [Release zip](../../releases/latest)
-2. 在 WorkBuddy 技能管理 → 上传技能，选择 zip 文件
+2. 在 Agent 客户端的 Skill 管理 → 上传技能，选择 zip 文件
 
 ### 从源码安装
 
@@ -26,7 +26,7 @@ git clone https://github.com/hugohung/workbuddy-skill-jianying-rough-cut.git ~/.
 
 ## 使用方式
 
-在 WorkBuddy 对话中直接说：
+在支持 Skill 的 Agent 对话中直接说：
 
 > "帮我把这段视频粗剪一下，加上字幕和转场"
 
